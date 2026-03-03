@@ -51,6 +51,12 @@
       "addLabels": ["rattler"]
     },
     {
+      "description": "Update rattler-build crates together",
+      "matchSourceUrls": ["https://github.com/prefix-dev/rattler-build{/,}**"],
+      "groupName": "rattler-build",
+      "addLabels": ["rattler"]
+    },
+    {
       "description": "Update uv crates together",
       "matchSourceUrls": ["https://github.com/astral-sh/uv{/,}**"],
       "groupName": "uv",
